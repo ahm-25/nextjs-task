@@ -1,0 +1,31 @@
+.container {
+  max-width: 60%;
+  margin: 50px auto;
+}
+.imageContainer {
+  /* height: 400px; */
+  border-radius: 8px;
+  overflow: hidden;
+}
+.imageContainer img {
+  object-fit: fill;
+  aspect-ratio: attr(width) / attr(height);
+}
+
+.title {
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.comments {
+  display: flex;
+  align-items: center;
+}
+.comments span {
+  font-weight: bold;
+  padding: 3px 10px;
+  margin-inline-start: 5px;
+  border-radius: 8px;
+  background-color: #444;
+  color: #fff;
+}

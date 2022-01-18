@@ -1,0 +1,8 @@
+.listItem {
+  list-style: none;
+  margin-bottom: 10px;
+  padding: 20px 10px;
+  background-color: rgb(250, 246, 246);
+  border-radius: 8px;
+  min-height: 40px;
+}

@@ -1,0 +1,8 @@
+.loadMore {
+  all: unset;
+  background-color: #444;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+}
